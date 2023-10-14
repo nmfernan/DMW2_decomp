@@ -1,0 +1,10 @@
+Digimon World 2
+Relased for Sony PSX July 27th 2000 (JP) & May 19th 2001 (USA)
+Assumptions and general information
+Compiler: probably GCC 2.95.2 or 2.95.1 based on release date
+
+Splat is being used to tear apart the ile SLUS_011.93 in the .BIN file
+
+2023/10/14
+General notes and observations
+Compiler was probably GCC 2.95.2 and 2.95.1 based on release date of game
