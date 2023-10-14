@@ -1,7 +1,10 @@
 Digimon World 2
 Relased for Sony PSX July 27th 2000 (JP) & May 19th 2001 (USA)
 Assumptions and general information
-Compiler: probably GCC 2.95.2 or 2.95.1 based on release date
+Compiler: probably GCC 2.95.2 or 2.95.1 based on release date -- new information makes it seem like compiler was likely V2.8 (big thanks to mkst)
+
+Looking at SLUS_011.93, it seems likely that most of the game code resides from 0x80010D7C to 0x80040D6C / 80040CF4
+  most of the functions after 80040D6C seem to contain a lot of "unknown" ops when looking in memory viewers such as Mednafen or PSX-Redux
 
 This link, https://drive.google.com/drive/folders/1N2qoXON1yBhntE1wIP2_YmntZhDYyLpc, contains a wealth of knowledge from a variety of people in the DMW2 Discord
 They have made many wonderful ROM Hacks with this :)
