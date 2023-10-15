@@ -1,16 +1,34 @@
 Notes on functions and locations / when functions are called
 
 80010d74 - called on .BIN start (very likely the main function)
-80010d7c - 
-80010da0 - 
+80010d7c - called after main function finishes
+80010da0 - called after main function finishes
 80010e1c - 
 80010e38 - called during main screen animation. seems to be used for drawing main screen / loading screen images
 80010ea4 - called during start/restart of main screen animation. seems to be used for drawing main screen / loading screen images
 80010ed4 - called during reset of main screen animation. for example, when loading screen times out and recalls 80010e38
+  ALSO called when main screen animation is interrupted by controller input
 80010f24 - questionable if 80010ed4 and 80010f24 are actually separate function. Ghidra and splat are giving weird results
   80010f24 is a fucking huge function - goes to address 80011078
   this function is used in tandem with 10e38, 10ea4 to draw main intro animation
       to see this, set breakpoints at 10e38, 10ea4, and 10f24 during intro animation
   *confirmed that 10f24 and 10ed4 are different functions
   10ed4 is called when the opening animation ENDS (and starts?)
-8001107c - called when opening animation resumes after time-out on main loading screen
+8001107c - called when opening animation resumes after time-out on main loading screen OR when opening animation ends
+80011170 - 
+80011190 - 
+800111d4 - 
+8001125c -
+800113b8 -
+80011440 - 
+80011510 - 
+80011544 - 
+80011564 - 
+80011580 - 
+800115c0 - 
+800115dc -
+80011614 - 
+80011b58 - 
+80011bec - 
+80011f04 - 
+80011f5c - 
