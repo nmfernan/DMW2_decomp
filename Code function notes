@@ -9,4 +9,7 @@ Notes on functions and locations / when functions are called
 80010ed4 - called during reset of main screen animation. for example, when loading screen times out and recalls 80010e38
 80010f24 - questionable if 80010ed4 and 80010f24 are actually separate function. Ghidra and splat are giving weird results
   80010f24 is a fucking huge function - goes to address 80011078
+  this function is used in tandem with 10e38, 10ea4 to draw main intro animation
+  *confirmed that 10f24 and 10ed4 are different functions
+  10ed4 is called when the opening animation ends
 8001107c - 
