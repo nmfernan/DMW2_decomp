@@ -13,4 +13,4 @@ Notes on functions and locations / when functions are called
       to see this, set breakpoints at 10e38, 10ea4, and 10f24 during intro animation
   *confirmed that 10f24 and 10ed4 are different functions
   10ed4 is called when the opening animation ENDS (and starts?)
-8001107c - 
+8001107c - called when opening animation resumes after time-out on main loading screen
