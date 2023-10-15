@@ -16,13 +16,13 @@ Notes on functions and locations / when functions are called
   10ed4 is called when the opening animation ENDS (and starts?)
 8001107c - called when opening animation resumes after time-out on main loading screen OR when opening animation ends
 80011170 - 
-80011190 - 
-800111d4 - 
-8001125c -
-800113b8 -
+80011190 - called when opening animation is loaded, not called during animation (only called two or three times)
+800111d4 - called when opening animation is loaded, not called during animation (only called two or three times)
+8001125c - 
+800113b8 - called when opening animation is loaded, not called during animation (only called two or three times)
 80011440 - 
 80011510 - 
-80011544 - 
+80011544 - called when opening animation is loaded, not called during animation (only called two or three times)
 80011564 - 
 80011580 - 
 800115c0 - 
