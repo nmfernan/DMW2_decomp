@@ -5,3 +5,8 @@ Notes on functions and locations / when functions are called
 80010da0 - 
 80010e1c - 
 80010e38 - called during main screen animation. seems to be used for drawing main screen / loading screen images
+80010ea4 - called during start/restart of main screen animation. seems to be used for drawing main screen / loading screen images
+80010ed4 - called during reset of main screen animation. for example, when loading screen times out and recalls 80010e38
+80010f24 - questionable if 80010ed4 and 80010f24 are actually separate function. Ghidra and splat are giving weird results
+  80010f24 is a fucking huge function - goes to address 80011078
+8001107c - 
