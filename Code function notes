@@ -1,0 +1,7 @@
+Notes on functions and locations / when functions are called
+
+80010d74 - called on .BIN start (very likely the main function)
+80010d7c - 
+80010da0 - 
+80010e1c - 
+80010e38 - called during main screen animation. seems to be used for drawing main screen / loading screen images
